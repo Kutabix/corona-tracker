@@ -21,8 +21,8 @@ export const fetchWorldData = async () => {
 }
 
 export const commands = [
-    '-how many covid cases in the world',
-    '-how many covid cases in (your country)'
+    '-świat',
+    '-kraj <kraj który chcesz wyszukać>'
 ];
 
 export const capitalizeFirstLetter = string => {
